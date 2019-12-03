@@ -8,7 +8,7 @@ cat 1.input \
 ```
 
 ## 1.2
-```
+```bash
 cat 1.input \
     | awk '{f=$1;while(f>=0){f=int(f/3)-2;print f}}' \
     | grep -Ev "\-|^0" \
