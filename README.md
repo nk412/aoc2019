@@ -1,13 +1,14 @@
 # aoc2019
 Advent of Code 2019
 
-## 1.1
+## 1
+#### .1
 ```bash
 cat 1.input \
     | awk '{f+=int($1/3)-2}END{print f}'
 ```
 
-## 1.2
+#### .2
 ```bash
 cat 1.input \
     | awk '{f=$1;while(f>=0){f=int(f/3)-2;print f}}' \
