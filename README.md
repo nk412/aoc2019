@@ -45,7 +45,6 @@ done ; done
 # 3
 
 ```bash
-%%bash
 cat 3.input \
     | awk '{print NR" "$0}' \
     | tr ',' '\n' \
